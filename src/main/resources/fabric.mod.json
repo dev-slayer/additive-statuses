@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "additive-statuses",
+	"version": "${version}",
+	"name": "Additive Statuses",
+	"description": "Exceed the usual potion duration, stacking your brews to infinity!",
+	"authors": [
+		"justslyr"
+	],
+	"license": "MIT",
+	"icon": "assets/additive-statuses/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.slayer.AdditiveStatuses"
+		],
+		"modmenu": [
+			"net.slayer.gui.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"additive-statuses.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

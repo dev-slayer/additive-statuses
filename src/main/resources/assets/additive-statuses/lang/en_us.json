@@ -1,0 +1,21 @@
+{
+  "text.autoconfig.additive_statuses.title": "Additive Statuses",
+
+  "text.autoconfig.additive_statuses.option.cycleAmplification": "Cycle Amplification",
+  "text.autoconfig.additive_statuses.option.cycleAmplification.@Tooltip": "If true, when the duration of a status exceeds the Maximum Duration, reset the duration to the Starter Duration value and increase the amplification",
+
+  "text.autoconfig.additive_statuses.option.cycleBlacklist": "Cycle Blacklist",
+  "text.autoconfig.additive_statuses.option.cycleBlacklist.@Tooltip": "A list of effects that won't cycle if Cycle Amplification is enabled",
+
+  "text.autoconfig.additive_statuses.option.blacklistedEffects": "Blacklisted Effects",
+  "text.autoconfig.additive_statuses.option.blacklistedEffects.@Tooltip": "Format is namespace:effect_id and is separated by commas",
+
+  "text.autoconfig.additive_statuses.option.durationLimitation": "Duration Limitation",
+  "text.autoconfig.additive_statuses.option.durationLimitation.@Tooltip": "If true, duration cannot exceed this number",
+
+  "text.autoconfig.additive_statuses.option.maxTime": "Maximum Duration",
+  "text.autoconfig.additive_statuses.option.maxTime.@Tooltip": "Measured in ticks (20 per second)",
+
+  "text.autoconfig.additive_statuses.option.startTime": "Starter Duration",
+  "text.autoconfig.additive_statuses.option.startTime.@Tooltip": "Measured in ticks (20 per second)"
+}

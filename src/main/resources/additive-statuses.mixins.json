@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.slayer.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ChangeStatuses"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
